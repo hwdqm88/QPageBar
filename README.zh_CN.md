@@ -10,7 +10,7 @@ QPageBar是一个基于Qt 5/Qt 6的Qt控件，可以实现切换页面的功能�
 
 ### 1. 引入文件
 
-将src文件夹中的```qpagebar.h``` ```qpagebar.cpp```直接导入项目中即可使用。（```Chinese```文件夹中是中文注释，```English```文件夹中是英文注释）
+将```src```文件夹中的```qpagebar.h``` ```qpagebar.cpp```直接导入项目中即可使用。（```Chinese```文件夹中是中文注释版本，```English```文件夹中是英文注释版本）
 
 代码中的注释是
 
