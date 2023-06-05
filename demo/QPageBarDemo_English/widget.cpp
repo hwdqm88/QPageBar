@@ -1,5 +1,5 @@
 #include "widget.h"
-#include "../../src/chinese/qpagebar.h"
+#include "../../src/english/qpagebar.h"
 #include <QVBoxLayout>
 #include "ui_widget.h"
 

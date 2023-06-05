@@ -10,11 +10,11 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    ../../src/chinese/qpagebar.cpp \
+    ../../src/english/qpagebar.cpp \
     widget.cpp
 
 HEADERS += \
-    ../../src/chinese/qpagebar.h \
+    ../../src/english/qpagebar.h \
     widget.h
 
 FORMS += \

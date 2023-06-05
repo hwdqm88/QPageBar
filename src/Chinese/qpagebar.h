@@ -1,5 +1,5 @@
-﻿#ifndef __QPAGEBAR_
-#define __QPAGEBAR_
+﻿#ifndef QPAGEBAR_H
+#define QPAGEBAR_H
 
 #include <QWidget>
 #include <QPushButton>
@@ -14,17 +14,12 @@ class QPageBar : public QWidget
 {
     Q_OBJECT
 public:
-    /**
-     * @brief 默认构造函数
-     * @param parent 父对象
-     */
     explicit QPageBar(QWidget* parent = nullptr);
-
+    
     /**
-     * @brief 有参构造函数
-     * @param pageTotalCount 页面总数
-     * @param pageShowCount 显示的页码按钮数量
-     * @param parent 父对象
+    * @brief 构造函数
+    * @param pageTotalCount 全部的页面数量
+    * @param pageShowCount 显示的页码按钮数量 
     */
     explicit QPageBar(int pageTotalCount, int pageShowCount = 5, QWidget* parent = nullptr);
 
@@ -96,4 +91,4 @@ private:
 };
 
 
-#endif // !__QPAGEBAR_
+#endif // !QPAGEBAR_H
